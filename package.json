@@ -16,7 +16,6 @@
     "react-transition-group": "^4.4.1",
     "web-vitals": "^0.2.4"
   },
-  "homepage": "https://INOCcent-afk.github.io/react-page-transition",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

@@ -3,6 +3,7 @@ import "./App.scss";
 import { Route } from "react-router-dom";
 import { CSSTransition } from "react-transition-group";
 import { gsap } from "gsap";
+import { BrowserRouter as Router } from "react-router-dom";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -47,7 +48,7 @@ function App() {
   };
 
   return (
-    <>
+    <Router>
       <Header />
       <div className="container">
         {routes.map(({ path, Component }) => (
@@ -69,7 +70,7 @@ function App() {
           </Route>
         ))}
       </div>
-    </>
+    </Router>
   );
 }
 
